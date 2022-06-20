@@ -1,3 +1,8 @@
+:root {
+    --animate-duration: 1.8s;
+    /* --animate-delay: 5s; */
+}
+
 #PortFolio {
     padding: 50px 0;
 }
@@ -17,7 +22,7 @@
 }
 
 #PortFolio .portfolio-card:hover .portfolio-img-style {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: blue;
 }
 

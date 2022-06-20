@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 import './Header.css';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
@@ -6,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <div id='Home'>
-                <Navbar collapseOnSelect expand="lg" className='nave-style'>
+                <Navbar collapseOnSelect expand="lg" className='nave-style animate__animated animate__fadeInDown'>
                     {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"> */}
                     <Container>
                         <Navbar.Brand href="#home">
@@ -29,7 +30,7 @@ const Header = () => {
                 </Navbar>
             </div>
 
-            <div className="main">
+            <div className="main animate__animated animate__zoomIn">
                 <div className='header-info-div'>
                     <div className='header-info'>
                         <h2>We Make</h2>

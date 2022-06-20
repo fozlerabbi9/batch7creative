@@ -9,7 +9,7 @@ const Expertises = () => {
                 <h2 className='expertises-h2'>Expertises</h2>
                 <div className='row expertises-grid-style'>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
+                        <div class="col animate__animated animate__backInLeft animate__delay-1.5s">
                             <div class="card h-100">
                                 <img className='img-style' src="https://img.freepik.com/free-vector/cartoon-web-design-landing-page_52683-70880.jpg?w=2000" alt="" />
                                 <div class="card-body">
@@ -18,7 +18,7 @@ const Expertises = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col animate__animated animate__backInUp animate__delay-1.5s">
                             <div class="card h-100">
                                 <img className='img-style' src="https://media.istockphoto.com/photos/web-design-desktop-picture-id1305999733?b=1&k=20&m=1305999733&s=170667a&w=0&h=3DeafNR4TJ7eSqHvBFkVRwNbnBrZxpj6RlaqbeiIAfs=" alt="" />
                                 <div class="card-body">
@@ -27,7 +27,7 @@ const Expertises = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col animate__animated animate__backInRight animate__delay-1.5s">
                             <div class="card h-100">
                                 <img className='img-style' src="https://www.uxweb-design.com/wp-content/uploads/2019/10/Web-design-1.jpg" alt="" />
                                 <div class="card-body">

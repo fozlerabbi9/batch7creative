@@ -1,3 +1,7 @@
+:root {
+    --animate-duration: 1.8s;
+    /* --animate-delay: 5s; */
+}
 .expertises-main {
     padding: 50px 100px;
     background-color: rgba(0,0,0,0.3);
