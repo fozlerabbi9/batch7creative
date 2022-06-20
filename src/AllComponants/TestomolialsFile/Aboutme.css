@@ -1,0 +1,42 @@
+.aboutMe-main{
+    background-color: rgb(228, 247, 247);
+    padding: 50px 100px;
+}
+.ditles-div{
+    display: flex;
+}
+.name-style{
+    text-align: center;
+    position: relative;
+}
+.name-style::after{
+    content: '';
+    width: 350px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray;
+    margin: -4px 0px;
+}
+.ditles-div img{
+    width: 350px;
+    height: 400px;
+    box-shadow: 5px 5px 8px rgb(226, 151, 151);
+    border-radius: 10px;
+}
+.ditles-div p{
+    padding: 120px 0 0 50px;
+}
+.info-style-p{
+    margin-top: -100px;
+}
+.info-style-p::first-letter{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    color: red;
+}
