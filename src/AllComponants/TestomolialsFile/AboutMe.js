@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <h2 className='name-style'>This is Fozle Rabbi</h2>
                 <div className="ditles-div">
 
-                    <img src="https://i.ibb.co/V3VyBxS/288151198-1075687899994641-1633964068978918891-n.jpg" alt="" />
+                    <img data-aos="zoom-in" src="https://i.ibb.co/V3VyBxS/288151198-1075687899994641-1633964068978918891-n.jpg" alt="" />
                     <div className="">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ratione incidunt repellendus animi commodi consectetur delectus veritatis possimus inventore quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque totam atque amet officiis dicta ullam illo architecto molestias reprehenderit fugiat. <br />
                         </p>

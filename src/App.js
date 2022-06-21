@@ -6,9 +6,15 @@ import AboutUs from './AllComponants/AboutUsFile/AboutUs';
 import Expertises from './AllComponants/ExpertisesFile/Expertises';
 import PortFolio from './AllComponants/PortfolioFile/PortFolio';
 import AboutMe from './AllComponants/TestomolialsFile/AboutMe';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return (
     <div className="App">
       <Header></Header>
