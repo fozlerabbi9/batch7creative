@@ -9,6 +9,8 @@ import AboutMe from './AllComponants/TestomolialsFile/AboutMe';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import ContactUs from './AllComponants/ContactUsFile/ContactUs';
+import Footer from './AllComponants/FooterFile/Footer';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <Expertises></Expertises>
       <PortFolio></PortFolio>
       <AboutMe></AboutMe>
+      <ContactUs></ContactUs>
+      <Footer></Footer>
     </div>
   );
 }

@@ -22,7 +22,7 @@ const Header = () => {
                                 <Nav.Link className='link-style' href="#PortFolio">PortFolio</Nav.Link>
                                 <Nav.Link className='link-style' href="#AboutME">About-Me</Nav.Link>
                                 <Nav.Link className='link-style' href="#deets">Blog</Nav.Link>
-                                <Nav.Link className='link-style' href="#deets">Contact</Nav.Link>
+                                <Nav.Link className='link-style' href="#contact-us">Contact</Nav.Link>
                                 <Nav.Link className='link-style' href="#deets">Component</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>

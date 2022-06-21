@@ -3,7 +3,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <div className='aboutUs-style'>
+        <div data-aos="zoom-in-down" className='aboutUs-style'>
             <div className="about" id='about'>
                 <div className="row">
                     <p className='first-p'>nobis dolorem sapiente evenie.</p>
