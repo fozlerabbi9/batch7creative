@@ -13,8 +13,8 @@ const AboutMe = () => {
                     <div className="">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ratione incidunt repellendus animi commodi consectetur delectus veritatis possimus inventore quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque totam atque amet officiis dicta ullam illo architecto molestias reprehenderit fugiat. <br />
                         </p>
-                        <p className='info-style-p'>Fozle Rabbi <span className='text-danger'>(Shuvo)...</span><small>React Developor</small> <br />
-                            <a href="https://www.facebook.com/profile.php?id=100009312384746">Facebook</a></p>
+                        <p className='info-style-p'>Fozle Rabbi <span className='text-danger'>(Shuvo)...</span><small>React Developer</small> <br />
+                            <a href="https://www.facebook.com/profile.php?id=100009312384746" target="_blank">Facebook</a></p>
                     </div>
                 </div>
 

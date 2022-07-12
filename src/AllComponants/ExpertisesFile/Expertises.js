@@ -1,6 +1,10 @@
 // import React from 'react';
 // import './Expertises.css'
 
+
+// =========>>> Just for testing =========<<<<<<<<
+
+
 // const Expertises = () => {
 //     return (
 //         <div className='expertises-main'>
@@ -57,7 +61,7 @@ const Expertises = () => {
     // }, [])
     return (
         <div className='expertises-main'>
-            <p className='expertises-p'>Blanditiis unde illum earum</p>
+            {/* <p className='expertises-p'>Blanditiis unde illum earum</p>
             <div className="expertises-style">
                 <h2 className='expertises-h2'>Expertises</h2>
                 <div className='row expertises-grid-style'>
@@ -92,7 +96,7 @@ const Expertises = () => {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
